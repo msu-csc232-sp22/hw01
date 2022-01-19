@@ -1,6 +1,6 @@
 # hw0a
 
-This non-graded assignment is used just to get students linked into the CSC232 GitHub Classroom managed by Jim Daehn.
+This assignment is used just to get students linked into the CSC232 GitHub Classroom managed by Jim Daehn.
 
 _As suggested in the previous sentence, this is a non-graded assignment. Whether you choose to work on this or not is your perrogative. The end-goal of this assignment is to simply link you to my GitHub classroom. This will happen simply by virtue of you following the assignment link provided to you by your instructor._
 
