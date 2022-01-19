@@ -1,4 +1,4 @@
-# lab0a
+# hw0a
 
 This non-graded assignment is used just to get students linked into the CSC232 GitHub Classroom managed by Jim Daehn.
 
@@ -6,7 +6,7 @@ _As suggested in the previous sentence, this is a non-graded assignment. Whether
 
 **Please note**: 
 
-* This assignment has been re-used for several semesters and as such, there may be some screen snapshots that appear different from your experience. If this descrepency creates any confusion for you, please raise an issue here: [https://github.com/msu-csc232-sp22/lab0a-intro-to-git/issues](https://github.com/msu-csc232-sp22/lab0a-intro-to-git/issues).
+* This assignment has been re-used for several semesters and as such, there may be some screen snapshots that appear different from your experience. If this descrepency creates any confusion for you, please raise an issue here: [https://github.com/msu-csc232-sp22/hw0a-intro-to-git/issues](https://github.com/msu-csc232-sp22/hw0a-intro-to-git/issues).
 * This lab is reused each semester, so some screen snapshots will appear to reference these previous semesters.
 
 ## Goals
@@ -101,24 +101,24 @@ When you tap on that button, you actually have two different options for cloning
 Once you have obtained the repository's URL, cloning is done by simply executing the following `git` command:
 
 ```bash
-git clone https://github.com/msu-csc232-sp22/lab0a-intro-to-git-your-github-username.git
+git clone https://github.com/msu-csc232-sp22/hw0a-intro-to-git-your-github-username.git
 ```
 
 Please note the following:
 
-1. The above command assumes the name of the repository is `lab0a-intro-to-git-your-github-username`. When your instructor creates assignments, they'll always have a prefix like `lab0a-intro-to-git` (for lab 0a, an introduction to git) followed by a hyphen followed by your GitHub username. As such, you shouldn't type that command verbatim. Instead, substitute the URL following the word `clone` with whatever you copied by tapping on the clone button on your repository when viewewd online in GitHub.
+1. The above command assumes the name of the repository is `hw0a-intro-to-git-your-github-username`. When your instructor creates assignments, they'll always have a prefix like `hw0a-intro-to-git` (for lab 0a, an introduction to git) followed by a hyphen followed by your GitHub username. As such, you shouldn't type that command verbatim. Instead, substitute the URL following the word `clone` with whatever you copied by tapping on the clone button on your repository when viewewd online in GitHub.
 1. Before issuing this `git` command, it is assumed you have navigated to the folder in which you want this repository cloned. For example, before doing this, you may want to create a "working" directory for this class with the following commands:
 
 ```bash
 $ mkdir -p csc232/lab
 $ cd csc232/lab
-$ git clone https://github.com/msu-csc232-sp22/lab0a-intro-to-git-your-github-username.git
-Cloning into 'lab0a-intro-to-git-your-github-username.git'...
+$ git clone https://github.com/msu-csc232-sp22/hw0a-intro-to-git-your-github-username.git
+Cloning into 'hw0a-intro-to-git-your-github-username.git'...
 remote: Counting objects: 5, done.
 remote: Compressing objects: 100% (5/5), done.
 remote: Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
 Unpacking objects: 100% (5/5), done.
-$ cd lab0a-intro-to-git-your-github-username
+$ cd hw0a-intro-to-git-your-github-username
 ```
 
 Again, in the above commands, one does not type the `$`. Any lines shown without the leading `$` are output from one of the commands. Also, when executing the `git` command, you may be prompted to (minimally) log in to GitHub as shown here:
@@ -129,7 +129,7 @@ Also, if you've set up two-factor authentication (something you should do with a
 
 ![Multifactor Authentication](two-factor-auth.png)
 
-When you're all said and done, you'll be in the csc232/lab/lab0a-intro-to-git-your-github-username directory. This cloned directory is what will be referred to as your "working directory."
+When you're all said and done, you'll be in the csc232/lab/hw0a-intro-to-git-your-github-username directory. This cloned directory is what will be referred to as your "working directory."
 
 ### Creating a develop branch
 
@@ -235,7 +235,7 @@ Compressing objects: 100% (5/5), done.
 Writing objects: 100% (6/6), 2.26 KiB | 578.00 KiB/s, done.
 Total 6 (delta 3), reused 0 (delta 0)
 remote: Resolving deltas: 100% (3/3), completed with 2 local objects.
-To github.com:msu-csc232/lab0a-intro-to-git-your-github-username.git
+To github.com:msu-csc232/hw0a-intro-to-git-your-github-username.git
  * [new branch]      develop -> develop
 Branch 'develop' set up to track remote branch 'develop' from 'origin'.
 
@@ -270,7 +270,7 @@ Once you've done this, _do not merge_ until your instructor as approved the pull
 To complete this assignment, one must:
 
 1. Accept the assignment delivered to you (i.e., visit the URL given)
-1. Clone their `lab0a-intro-to-git-*` repository.
+1. Clone their `hw0a-intro-to-git-*` repository.
 1. Create a `develop` branch within in which to do your work.
 1. Modify a [file](version.txt) with a simple change and commit your changes.
 1. Create a new file in which you'll write a brief bio and outline your expectations for the class.
@@ -280,4 +280,4 @@ To complete this assignment, one must:
 
 ## Issues
 
-If you have found any issues with this lab, e.g., the output of a command didn't match yours, or you have found typos, or one or more sections are worded in a manner that seems confusing or misleading, please bring it to my attention. The best way to do that is to "raise an Issue." Visit [https://github.com/msu-csc232-sp22/lab0a-intro-to-git/issues](https://github.com/msu-csc232-sp22/lab0a-intro-to-git/issues) and tap on the "New Issue" button.
+If you have found any issues with this lab, e.g., the output of a command didn't match yours, or you have found typos, or one or more sections are worded in a manner that seems confusing or misleading, please bring it to my attention. The best way to do that is to "raise an Issue." Visit [https://github.com/msu-csc232-sp22/hw0a-intro-to-git/issues](https://github.com/msu-csc232-sp22/hw0a-intro-to-git/issues) and tap on the "New Issue" button.
