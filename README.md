@@ -1,17 +1,17 @@
 # hw0a
 
-This assignment is used just to get students linked into the CSC232 GitHub Classroom managed by Jim Daehn.
+This assignment is used to gain experience with version control systems, i.e., `git` and sites that are used to host versioned projects, e.g., [GitHub](https://github.com).
 
-_As suggested in the previous sentence, this is a non-graded assignment. Whether you choose to work on this or not is your perrogative. The end-goal of this assignment is to simply link you to my GitHub classroom. This will happen simply by virtue of you following the assignment link provided to you by your instructor._
+In Lab0a (`git-github-essentials-your-github-username`), you accepted a GitHub Classroom assignment that linked you to our GitHub Classroom. The repository itself contained material that provided background information surrounding the use of version control systems like `git` and sites that host repositories (e.g., GitHub). In this assignment, you'll put some of these concepts to practice through some "typical" changes that are made to software development projects (e.g., updating existing files and adding new files to version control).
 
 **Please note**: 
 
-* This assignment has been re-used for several semesters and as such, there may be some screen snapshots that appear different from your experience. If this descrepency creates any confusion for you, please raise an issue here: [https://github.com/msu-csc232-sp22/hw0a-intro-to-git/issues](https://github.com/msu-csc232-sp22/hw0a-intro-to-git/issues).
-* This lab is reused each semester, so some screen snapshots will appear to reference these previous semesters.
+* This assignment has been re-used for several semesters and as such, there may be some screen snapshots that appear different from your experience. If this descrepency creates any confusion for you, please raise an issue here: [https://github.com/msu-csc232-sp22/hw0a-intro-to-git/issues](https://github.com/msu-csc232-sp22/hw0a-intro-to-git/issues). Some semesters it was used as a non-graded lab; this semester we're using this as our first graded homework assignment.
+* This lab is reused each semester, so some (if not all, by now) screen snapshots will appear to reference these previous semesters.
 
 ## Goals
 
-Upon completion of this assignment, the student will have learned to
+Upon completion of this assignment, the student will have learned or continued to gain experience on how to
 
 * accept a GitHub Education assignment
 * clone a repository from GitHub
@@ -57,14 +57,14 @@ Furthermore, you'll want to check out these videos hosted on YouTube. The follow
 
 With each assignment in CSC232, students are given a URL that must be followed. When the student follows the given URL, a process is kicked off wherein a new repository is created in their GitHub account. Once the repository is created by this background process, the student may clone the repository and work with it as required.
 
-Since this is the first time you'll be doing this, there are a few steps that are required to link your GitHub account with the course GitHub classroom. _In fact, this step is really the primary purpose of this lab. That is, linking your account with the classroom_.
+If this is the first time you've accepted a GitHub Classroom Assignment Link, there are a few steps that you must do that are required to link your GitHub account with the course GitHub classroom. _In fact, a similar step was taken in Lab0a whose primary purpose in the lab was to establish that link_. The following section (Linking your account) need only be followed **if and only if** this is the first GitHub Classroom Assignment Link you've followed.
 
 #### Linking your account
 
-This lab assumes (and in fact requires) that you have a GitHub account. Visit [GitHub Education](https://education.github.com/students) to get started. 
+This assignment assumes (and in fact requires) that you have a GitHub account. Visit [GitHub Education](https://education.github.com/students) to get started. 
 
 1. Once you have a created a GitHub account, log into [github.com](https://github.com). 
-1. Once you are logged into GitHub, accept this assignment by visiting [https://classroom.github.com/a/w3Cb_Sic](https://classroom.github.com/a/w3Cb_Sic). Again, since is the first time, you'll encounter the following pages: 
+1. Once you are logged into GitHub, accept this assignment by visiting [https://classroom.github.com/a/3JHZP56Y](https://classroom.github.com/a/3JHZP56Y). Again, since is the first time, you'll encounter the some facsimile of the following pages: 
 
    ![Link Your Account](./lab00a-join-classroom.png)
 
@@ -92,7 +92,7 @@ This lab assumes (and in fact requires) that you have a GitHub account. Visit [G
 
 ### Cloning a GitHub Repository
 
-Cloning a repository is rather simple. When viewing a GitHub repository online, there is a green button that provides you with the URL needed to clone the repository, as shown here:
+Cloning a repository is rather simple. When viewing a GitHub repository online, there is a green button that provides you with the URL needed to clone the repository, as something similar shown here:
 
 ![Image of repo clone button](clone-button.png)
 
@@ -101,24 +101,24 @@ When you tap on that button, you actually have two different options for cloning
 Once you have obtained the repository's URL, cloning is done by simply executing the following `git` command:
 
 ```bash
-git clone https://github.com/msu-csc232-sp22/hw0a-intro-to-git-your-github-username.git
+git clone https://github.com/msu-csc232-sp22/hw01-intro-to-git-your-github-username.git
 ```
 
 Please note the following:
 
-1. The above command assumes the name of the repository is `hw0a-intro-to-git-your-github-username`. When your instructor creates assignments, they'll always have a prefix like `hw0a-intro-to-git` (for lab 0a, an introduction to git) followed by a hyphen followed by your GitHub username. As such, you shouldn't type that command verbatim. Instead, substitute the URL following the word `clone` with whatever you copied by tapping on the clone button on your repository when viewewd online in GitHub.
+1. The above command assumes the name of the repository is `hw01-intro-to-git-your-github-username`. When your instructor creates assignments, they'll always have a prefix like `hw01-intro-to-git` (for hw01, an introduction to git) followed by a hyphen followed by your GitHub username. As such, you shouldn't type that command verbatim. Instead, substitute the URL following the word `clone` with whatever you copied by tapping on the clone button on your repository when viewewd online in GitHub.
 1. Before issuing this `git` command, it is assumed you have navigated to the folder in which you want this repository cloned. For example, before doing this, you may want to create a "working" directory for this class with the following commands:
 
 ```bash
 $ mkdir -p csc232/lab
 $ cd csc232/lab
-$ git clone https://github.com/msu-csc232-sp22/hw0a-intro-to-git-your-github-username.git
-Cloning into 'hw0a-intro-to-git-your-github-username.git'...
+$ git clone https://github.com/msu-csc232-sp22/hw01-intro-to-git-your-github-username.git
+Cloning into 'hw01-intro-to-git-your-github-username.git'...
 remote: Counting objects: 5, done.
 remote: Compressing objects: 100% (5/5), done.
 remote: Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
 Unpacking objects: 100% (5/5), done.
-$ cd hw0a-intro-to-git-your-github-username
+$ cd hw01-intro-to-git-your-github-username
 ```
 
 Again, in the above commands, one does not type the `$`. Any lines shown without the leading `$` are output from one of the commands. Also, when executing the `git` command, you may be prompted to (minimally) log in to GitHub as shown here:
@@ -139,8 +139,8 @@ Creating a `develop` branch is easy. Assuming you're in your "working directory"
 
 ```bash
 $ git status
-On branch master
-Your branch is up to date with 'origin/master'.
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
 
 nothing to commit, working tree clean
 
@@ -149,7 +149,7 @@ Switched to a new branch 'develop'
 
 $ git branch
 * develop
-  master
+  trunk
 
 $
 ```
@@ -184,7 +184,7 @@ Now that this file has changed, we want to _commit_ this change. This is easily 
 
 ```bash
 $ git commit -am "Updated version number."
-[master 7333fbb] Updated version number.
+[trunk 7333fbb] Updated version number.
  1 file changed, 1 insertion(+), 1 deletion(-)
 $
 ```
@@ -246,7 +246,7 @@ Any subsequent push does not require the `--set-upstream` switch (and in fact, i
 
 ### Creating a Pull Request
 
-When we're done, the `develop` branch will be different from the `master` branch. These differences amount to the work you've done. A _pull request_ is issued to ask others to review these changes before they're _merged_ into the `master` branch. In other words, your "requesting" to "pull" the changes you've made into the `master` branch; hence the name _pull request_.
+When we're done, the `develop` branch will be different from the `trunk` branch. These differences amount to the work you've done. A _pull request_ is issued to ask others to review these changes before they're _merged_ into the `trunk` branch. In other words, your "requesting" to "pull" the changes you've made into the `trunk` branch; hence the name _pull request_.
 
 Before a pull request can be created, we have two more things to do. We have to
 
@@ -257,11 +257,11 @@ As we've just done this, we can issue our pull request. Back on GitHub, our repo
 
 ![GitHub Pull Request](pull-request.png)
 
-Tap on the New Pull Request button and make sure you are comparing your `develop` branch with your `master` branch as shown below:
+Tap on the New Pull Request button and make sure you are comparing your `develop` branch with your `trunk` branch as shown below:
 
 ![Compare Branches](compare-branches.png)
 
-Note the direction of the arrow: _from_ `develop` _into_ `master`. Tap on the Pull Request button and fill in a brief description. Also, add professordaehn as a reviewer and assign yourself the Assignee. Once you've added in all these details, tap on the Create Pull Request button.
+Note the direction of the arrow: _from_ `develop` _into_ `trunk`. Tap on the Pull Request button and fill in a brief description. Also, add `professordaehn` as a reviewer and assign yourself the Assignee. Once you've added in all these details, tap on the Create Pull Request button.
 
 Once you've done this, _do not merge_ until your instructor as approved the pull request.
 
@@ -270,14 +270,14 @@ Once you've done this, _do not merge_ until your instructor as approved the pull
 To complete this assignment, one must:
 
 1. Accept the assignment delivered to you (i.e., visit the URL given)
-1. Clone their `hw0a-intro-to-git-*` repository.
+1. Clone their `hw01-intro-to-git-*` repository.
 1. Create a `develop` branch within in which to do your work.
 1. Modify a [file](version.txt) with a simple change and commit your changes.
 1. Create a new file in which you'll write a brief bio and outline your expectations for the class.
 1. Add the new file to version control and commit your changes.
 1. Push your changes to GitHub.
-1. Create a pull request requesting to merge your changes in your `develop` branch into your `master` branch. (This pull request must have "professordaehn" added as a reviewer.)
+1. Create a pull request requesting to merge your changes in your `develop` branch into your `trunk` branch. (This pull request must have "professordaehn" added as a reviewer.)
 
 ## Issues
 
-If you have found any issues with this lab, e.g., the output of a command didn't match yours, or you have found typos, or one or more sections are worded in a manner that seems confusing or misleading, please bring it to my attention. The best way to do that is to "raise an Issue." Visit [https://github.com/msu-csc232-sp22/hw0a-intro-to-git/issues](https://github.com/msu-csc232-sp22/hw0a-intro-to-git/issues) and tap on the "New Issue" button.
+If you have found any issues with this lab, e.g., the output of a command didn't match yours, or you have found typos, or one or more sections are worded in a manner that seems confusing or misleading, please bring it to my attention. The best way to do that is to "raise an Issue." Visit [https://github.com/msu-csc232-sp22/hw01-intro-to-git/issues](https://github.com/msu-csc232-sp22/hw01-intro-to-git/issues) and tap on the "New Issue" button.
