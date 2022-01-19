@@ -278,6 +278,42 @@ To complete this assignment, one must:
 1. Push your changes to GitHub.
 1. Create a pull request requesting to merge your changes in your `develop` branch into your `trunk` branch. (This pull request must have "professordaehn" added as a reviewer.)
 
+## Submission Details
+
+As usual, prior to submitting your assignment to Blackboard, be sure that you have committed and pushed your final changes to GitHub. Submit the URL of your assignment _repository_ (i.e., _not_ the URL of the pull request) as a Text Submission in Blackboard. Please note: the timestamp of the submission on Blackboard is used to assess any late penalties if and when warranted.
+
+### Due Date
+
+Your Blackboard submission is due by **11:59 PM, 27-Jan 2022**.
+
+### Grading Rubric
+
+This assignment is worth **5 points**.
+
+Criteria          | Exceeds Expectations         | Meets Expectations                  | Below Expectations                  | Failure                                                 |
+------------------|------------------------------|-------------------------------------|-------------------------------------|---------------------------------------------------------|
+Pull Request (20%)| Submitted early, correct url | Submitted on-time; correct url      | Incorrect URL                       | No pull request was created or submitted                |
+Code Style^ (20%)  | Exemplary code style         | Consistent, modern coding style     | Inconsistent coding style           | No style whatsoever or no code changes present          |
+Correctness^^ (60%)| All unit tests pass          | At least 80% of the unit tests pass | At least 60% of the unit tests pass | Less than 50% of the unit tests pass                    |
+
+^ _There is no coding in this homework assignment, but this criteria is presented (and used) here as this is a general rubric used for homework assignments and labs_. _For this assignment, you can count on full credit here_.
+
+^^ _The Google Test unit runner, if appropriate, will calculate the correctness points based purely on the fraction of tests passed_.
+
+### Late Penalty
+
+* In the first 24 hour period following the due date, this homework assignment will be penalized 1 point meaning the grading starts at 4 (out of 5 total possible) points.
+* In the second 24 hour period following the due date, this homework assignment will be penalized 2 points meaning the grading starts at 3 (out of 5 total possible) points.
+* After 48 hours, the assignment will not be graded and thus earns no points, i.e., 0 out of 5 possible points.
+
+## Disclaimer & Fair Use Statement
+
+This repository may contain copyrighted material, the use of which may not have been specifically authorized by the copyright owner. This material is available in an effort to explain issues relevant to the course or to illustrate the use and benefits of an educational tool. The material contained in this repository is distributed without profit for research and educational purposes. Only small portions of the original work are being used and those could not be used to easily duplicate the original work.
+
+This constitutes a 'fair use' of any such copyrighted material (referenced and provided for in section 107 of the US Copyright Law).
+
+If you wish to use any copyrighted material from this repository for purposes that go beyond 'fair use', you must obtain expressed permission from the copyright owner.
+
 ## Issues
 
 If you have found any issues with this lab, e.g., the output of a command didn't match yours, or you have found typos, or one or more sections are worded in a manner that seems confusing or misleading, please bring it to my attention. The best way to do that is to "raise an Issue." Visit [https://github.com/msu-csc232-sp22/hw01-intro-to-git/issues](https://github.com/msu-csc232-sp22/hw01-intro-to-git/issues) and tap on the "New Issue" button.
