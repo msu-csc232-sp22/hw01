@@ -6,7 +6,7 @@ In Lab0a (`git-github-essentials-your-github-username`), you accepted a GitHub C
 
 **Please note**: 
 
-* This assignment has been re-used for several semesters and as such, there may be some screen snapshots that appear different from your experience. If this descrepency creates any confusion for you, please raise an issue here: [https://github.com/msu-csc232-sp22/hw01-intro-to-git/issues](https://github.com/msu-csc232-sp22/hw01-intro-to-git/issues). Some semesters it was used as a non-graded lab; this semester we're using this as our first graded homework assignment.
+* This assignment has been re-used for several semesters and as such, there may be some screen snapshots that appear different from your experience. If this descrepency creates any confusion for you, please raise an issue here: [https://github.com/msu-csc232-sp22/hw01/issues](https://github.com/msu-csc232-sp22/hw01/issues). Some semesters it was used as a non-graded lab; this semester we're using this as our first graded homework assignment.
 * This lab is reused each semester, so some (if not all, by now) screen snapshots will appear to reference these previous semesters.
 
 ## Goals
